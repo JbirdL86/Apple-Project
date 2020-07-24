@@ -4,6 +4,10 @@
   margin: 0;
 }
 
+body {
+  width: 100%;
+}
+
 a {
   cursor: pointer;
   text-decoration: none;
@@ -42,6 +46,7 @@ a {
   border-style: solid;
   overflow: hidden;
   border-color: #5c5c5c;
+  color: #dcdcdd;
 }
 
 .nav-link:hover {
@@ -126,7 +131,9 @@ a {
   position: relative;
   grid-area: hero;
   width: 1440px;
-  background: url(https://web.archive.org/web/20140228114747im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg) 50% 100% no-repeat;
+  background: url(https://web.archive.org/web/20140228114747im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg);
+  background-size: cover;
+  background-position: 50% 100%;
   text-align: center;
   height: 650px;
   display: grid;
