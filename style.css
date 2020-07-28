@@ -60,7 +60,7 @@ a {
 
 .nav-wrapper,
 .nav-wrapper .navbar,
-.nav-wrapper .navbar > li,
+.nav-text,
 .nav-wrapper .navbar li a {
   height: 36px;
 }
@@ -277,7 +277,7 @@ a {
   margin-top: 0.5em;
 }
 
-.footer-links > li {
+.footer-links li {
   display: inline-block;
   margin-left: 0.6em;
   padding-left: 0.6em;
