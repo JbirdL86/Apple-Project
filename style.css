@@ -20,12 +20,11 @@ a {
 .nav-wrapper {
   position: absolute;
   top: 60px;
-  margin: 0 auto;
-  width: 980px;
+  left: 50%;
+  max-width: 900px;
+  min-width: 700px;
   display: flex;
   z-index: 9998;
-  left: 50%;
-  margin-left: -490px;
   border-radius: 4px;
   text-align: left;
   box-shadow: rgba(0, 0, 0, 0.3) 0 1px 2px;
@@ -34,10 +33,11 @@ a {
   font-family: "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
   background-image: linear-gradient(to bottom, #737373, #5e5e5e 50%, #737373 50%, #878787);
   margin-top: 18px;
+  margin-left: -450px;
 }
 
 .navbar {
-  width: 845px;
+  width: 86.3%;
   display: table;
   table-layout: fixed;
   list-style: none outside;
@@ -99,6 +99,7 @@ a {
 
 .searchbox-wrapper {
   padding: 8px 13px;
+  width: 13.6%;
 }
 
 .searchbox-container {
@@ -107,18 +108,25 @@ a {
 }
 
 #searchbox {
-  width: 110px;
+  width: 100%;
   background-color: transparent;
   border-radius: 10px;
 }
 
 .content-wrapper {
-  width: 100%;
+  max-width: 1440px;
+  min-width: 800px;
   margin: 0 auto;
 }
 
 .form-container {
   border-radius: 10px;
+}
+
+.grid-wrapper {
+  max-width: 1440px;
+  min-width: 800px;
+  margin: 0 auto;
 }
 
 .hero {
@@ -131,20 +139,22 @@ a {
   display: grid;
   align-content: space-evenly;
   object-fit: cover;
-  justify-content: center;
 }
 
 .grid-header {
   position: relative;
+  min-width: 800px;
 }
 
 .grid-footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-areas: "info1 info2 info3 info4";
+  grid-gap: 2px;
   justify-content: center;
   height: 21.1vh;
-  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
   overflow: hidden;
 }
 
@@ -166,9 +176,8 @@ a {
 
 .head-img1 {
   display: block;
-  margin: 0 auto;
-  width: 980px;
   height: 104px;
+  width: 100%;
 }
 
 .secondary-header {
@@ -178,8 +187,7 @@ a {
 .head-img2 {
   display: block;
   height: 82px;
-  width: 980px;
-  margin: auto;
+  width: 100%;
 }
 
 .watch-now {
@@ -197,8 +205,7 @@ a {
 .head-img3 {
   display: inline-block;
   height: 64px;
-  width: 980px;
-  margin: 0 auto;
+  width: 100%;
 }
 
 .info-shaper {
@@ -248,7 +255,8 @@ a {
 
 .footer-container {
   margin: 0 auto;
-  width: 80%;
+  max-width: 80%;
+  min-width: 800px;
   padding: 1em 0 2.6em;
   color: #6e6e6e;
   font-size: 0.6334em;
