@@ -16,7 +16,7 @@ percentage in order to make it look like two solid colors pusshing each other.
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/JbirdL86/Apple/feature-branch/index.html)
+[Live Demo Link](https://rawcdn.githack.com/JbirdL86/Apple/49371d98b59de4bd2cf71e6cdbb53ea4f068b0f7/index.html)
 
 
 ## Getting Started
